@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.google.com/search?q=netflix+transparent+logo&rlz=1C1CHZO_enIN908IN908&sxsrf=AOaemvIVAmpQsOewLcYz1WhPHMI0F-S2Fw:1640103481782&tbm=isch&source=iu&ictx=1&fir=5hi3e7TCiyFvgM%252CwFt66LfFOVM1JM%252C_%253B-zVZNQRSsWEWMM%252ClreyZq8loUcrsM%252C_%253Bn-68eQgovlqU5M%252C7tmT27r0DArK_M%252C_%253BUwQQo7gsXZSnHM%252CA7SpUtHKlM3u4M%252C_%253B-sAQB5w5HrtpRM%252C1fYMQiIyYsaYQM%252C_%253BxlCwHYyFbtGVGM%252Cgx8HbNfuDWVf-M%252C_%253B7z812wl5q2J5_M%252CzQguTQda49YGyM%252C_%253BdDpc8Z_kWc7v4M%252ClreyZq8loUcrsM%252C_%253BaTHnh2FYXTiz1M%252Cl3LT0KTdyYUo-M%252C_%253BPAVW6jhi_pKtHM%252CxcCaFh39mcTa7M%252C_%253BYudt0InYj5IIfM%252C1fYMQiIyYsaYQM%252C_%253BaZCNNquNOAl2IM%252CxnMMbdEvnkWEdM%252C_%253BW60e97VIrgtfGM%252Cc_OdmKXszsGERM%252C_%253BA7__XrAcSu0HEM%252C1fYMQiIyYsaYQM%252C_%253BMBD6-LcxBOF4OM%252C1fYMQiIyYsaYQM%252C_&vet=1&usg=AI4_-kTTVpnbMlbbP3MVpjn-arKE0Mn0lQ&sa=X&ved=2ahUKEwi3pbTLpfX0AhVwS2wGHR-GBGoQ9QF6BAgSEAE#imgrc=n-68eQgovlqU5M" type="image/x-icon"/>
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="navbar">
+            <div class="left">
+                <img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="">
+            </div>
+            <div class="right">
+                <select name="language" class="language">
+                    <option value="English">English</option>
+                    <option value="Hindi">हिन्दी</option>
+                </select>
+                <button><a href="#">Sign In</a></button>
+            </div>
+        </nav>
+
+        <div class="title">
+            <div class="content">
+                <h1>Unlimited movies, TV shows and more.</h1>
+                <h2>Watch anywhere. Cancel anytime.</h2>
+                <form action="#">
+                    <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+                    <div class="email">
+                        <input type="email" name="email" placeholder="Email address">
+                        <button><a href="#">Get Started  ></a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: black;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.container::before{
+    content: "";
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/3679b63e-5d92-47a1-96ec-b26d86fc0f0a/5f2448e1-fdc2-45c0-9e1e-d1738caadfd3/IN-en-20211213-popsignuptwoweeks-perspective_alpha_website_small.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+.container .navbar{
+    height: 100px;
+    display: flex;
+}
+.container .navbar .left{
+    height: 100%;
+    display: flex;
+    float: left;
+}
+.container .navbar .left img{
+    height: 100px;
+    position: absolute;
+    left: 35px;
+}
+.container .navbar .right{
+    display: flex;
+    height: 100px;
+    float: right;
+    position: absolute;
+    right: 55px;
+}
+.container .navbar .right .language{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 7px 10px;
+    color: white;
+    background: #030303b2;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.container .navbar .right .language option{
+    background-color: grey;
+}
+.container .navbar .right button{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+}
+.container .navbar .right button a{
+    text-decoration: none;
+    color: white;
+}
+.container .title{
+    padding: 75px 45px;
+}
+.container .title .content{
+    width: 1000px;
+    margin: auto;
+    padding: 75px 0;
+    text-align: center;
+}
+.container .title .content h1{
+    width: 650px;
+    margin: auto;
+    margin-top: 0%;
+    margin-bottom: 15px;
+    font-size: 3.1rem;
+    text-align: center;
+}
+.container .title .content h2{
+    width: 650px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.container .title .content form h3{
+    font-size: 17.5px;
+    margin: 18px 0;
+    text-align: center;
+    word-spacing: 2px;
+}
+.container .title .content form .email{
+    width: 1000px;
+    margin: auto;
+}
+.container .title .content form .email input{
+    height: 60px;
+    width: 480px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+}
+.container .title .content form .email button{
+    margin: auto;
+    height: 60px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border: none;
+    margin-left: -5px;
+}
+.container .title .content form .email button:hover{
+    background-color: #f40612;
+}
+.container .title .content form .email button a{
+    text-decoration: none;
+    color: white;
+}
+    </style>
+</body>
+</html>
